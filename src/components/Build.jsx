@@ -8,31 +8,20 @@ const Build = () => {
     <Section title="Build" image={{ src: imageLaptop, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          Based off of the discovery phase, we develop a comprehensive roadmap
-          for each product and start working towards delivery. The roadmap is an
-          intricately tangled mess of technical nonsense designed to drag the
-          project out as long as possible.
+          Our agile development approach combines technical excellence with transparent communication. We create detailed roadmaps with clear milestones, ensuring you’re involved and informed at every stage.
         </p>
         <p>
-          Each client is assigned a key account manager to keep lines of
-          communication open and obscure the actual progress of the project.
-          They act as a buffer between the client’s incessant nagging and the
-          development team who are hard at work scouring open source projects
-          for code to re-purpose.
+          Each project is led by an experienced delivery manager who serves as your primary point of contact, facilitating clear communication between your team and our development experts. We maintain regular check-ins and demos to gather feedback and ensure we’re aligned with your vision.
         </p>
         <p>
-          Our account managers are trained to only reply to client emails after
-          9pm, several days after the initial email. This reinforces the general
-          aura that we are very busy and dissuades clients from asking for
-          changes.
+          Our developers follow industry best practices, emphasizing code quality, security, and scalability. We leverage our extensive experience while staying current with emerging technologies to deliver optimal solutions.
         </p>
       </div>
       <Blockquote
-        author={{ name: "Debra Fiscal", role: "CEO of Unseal" }}
+        author={{ name: "Declan Wade", role: "Managing Director" }}
         className="mt-12"
       >
-        Studio_clone were so regular with their progress updates we almost began
-        to think they were automated!
+        I have experienced firsthand the complex challenges organizations face when implementing large-scale digital transformations. These insights drive our approach to every project – ensuring transparent communication, predictable delivery, and measurable business outcomes. Our team’s commitment is to make digital transformation not just successful, but also a clear, well-managed journey for our clients.
       </Blockquote>
     </Section>
   );

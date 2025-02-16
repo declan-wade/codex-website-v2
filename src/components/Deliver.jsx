@@ -8,48 +8,30 @@ const Deliver = () => {
     <Section title="Deliver" image={{ src: imageMeeting, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          About halfway through the Build phase, we push each project out by 6
-          weeks due to a change in{" "}
-          <strong className="font-semibold text-neutral-950">
-            requirements
-          </strong>
-          . This allows us to increase the budget a final time before launch.
+          Quality and reliability are at the core of our delivery process. We implement comprehensive testing protocols and follow a structured deployment approach to ensure smooth transitions into production.
         </p>
         <p>
-          Despite largely using pre-built components, most of the{" "}
-          <strong className="font-semibold text-neutral-950">progress</strong>{" "}
-          on each project takes place in the final 24 hours. The development
-          time allocated to each client is actually spent making augmented
-          reality demos that go viral on Twitter.
-        </p>
-        <p>
-          We ensure that the main pages of the site are{" "}
-          <strong className="font-semibold text-neutral-950">
-            fully functional
-          </strong>{" "}
-          at launch — the auxiliary pages will, of course, be lorem ipusm shells
-          which get updated as part of our exorbitant{" "}
-          <strong className="font-semibold text-neutral-950">
-            maintenance
-          </strong>{" "}
-          retainer.
+          Our commitment extends beyond launch day. We provide thorough documentation, knowledge transfer, and ongoing support to ensure your team is equipped for success. Our maintenance packages are customized to your needs, ensuring your solution continues to deliver value.
         </p>
       </div>
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
-        Included in this phase
+        Included in this delivery
       </h3>
       <List>
         <ListItem title="Testing">
-          Our projects always have 100% test coverage, which would be impressive
-          if our tests weren’t as porous as a sieve.
+          Comprehensive testing and QA
         </ListItem>
         <ListItem title="Infrastructure">
-          To ensure reliability we only use the best Digital Ocean droplets that
-          $4 a month can buy.
+          Enterprise-grade infrastructure setup
+        </ListItem>
+        <ListItem title="Training">
+          Team training and knowledge transfer
         </ListItem>
         <ListItem title="Support">
-          Because we hold the API keys for every critical service your business
-          uses, you can expect a lifetime of support, and invoices, from us.
+          Post-launch support and maintenance
+        </ListItem>
+        <ListItem title="Upkeep">
+          Regular performance reviews and optimization recommendations
         </ListItem>
       </List>
     </Section>

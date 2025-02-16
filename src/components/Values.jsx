@@ -15,41 +15,31 @@ const Values = () => {
       </div>
       <SectionIntro
         eyebrow="Our values"
-        title="Balancing reliability and innovation"
+        title="Balancing Stability and Innovation"
       >
         <p>
-          We strive to stay at the forefront of emerging trends and
-          technologies, while completely ignoring them and forking that old
-          Rails project we feel comfortable using. We stand by our core values
-          to justify that decision.
+          We believe in leveraging proven technologies while thoughtfully incorporating emerging solutions that deliver real value. Our approach combines established best practices with strategic innovation to create reliable, future-ready solutions.
         </p>
       </SectionIntro>
       <Container className="mt-24">
         <GridList>
           <GridListItem title="Meticulous">
-            The first part of any partnership is getting our designer to put
-            your logo in our template. The second step is getting them to do the
-            colors.
+            We pay attention to every detail, from initial design to final deployment. Our thorough quality assurance process ensures consistent, high-quality deliverables that maintain your brand standards and meet your business objectives.
           </GridListItem>
           <GridListItem title="Efficient">
-            We pride ourselves on never missing a deadline which is easy because
-            most of the work was done years ago.
+            Our refined processes and extensive experience allow us to deliver projects on time and within budget. We leverage proven patterns and reusable components while customizing solutions to meet your specific needs.
           </GridListItem>
           <GridListItem title="Adaptable">
-            Every business has unique needs and our greatest challenge is
-            shoe-horning those needs into something we already built.
+            Every organization has unique challenges and opportunities. We tailor our approach to align with your business context, adjusting our methodologies to best serve your objectives rather than forcing one-size-fits-all solutions.
           </GridListItem>
-          <GridListItem title="Honest">
-            We are transparent about all of our processes, banking on the simple
-            fact our clients never actually read anything.
+          <GridListItem title="Transparent">
+            Clear communication is fundamental to our process. We provide regular updates and detailed documentation, ensuring stakeholders understand project progress, decisions, and implications at every stage.
           </GridListItem>
-          <GridListItem title="Loyal">
-            We foster long-term relationships with our clients that go beyond
-            just delivering a product, allowing us to invoice them for decades.
+          <GridListItem title="Partnership-Focused">
+            We build lasting relationships by delivering consistent value over time. Our ongoing support and proactive maintenance ensure your solutions continue to evolve with your business needs.
           </GridListItem>
-          <GridListItem title="Innovative">
-            The technological landscape is always evolving and so are we. We are
-            constantly on the lookout for new open source projects to clone.
+          <GridListItem title="Forward-Thinking">
+            We actively research and evaluate emerging technologies, selectively incorporating proven innovations that can deliver meaningful business value. Our team maintains current expertise while ensuring solution stability and reliability.
           </GridListItem>
         </GridList>
       </Container>
