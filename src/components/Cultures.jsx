@@ -18,7 +18,7 @@ const Cultures = () => {
       <Container className="mt-16">
         <GridList>
           <GridListItem title="Community" invert>
-            Our collaborative environment fosters long-term relationships and shared success. We celebrate diverse perspectives and support each team member's professional development through mentorship, learning opportunities, and clear career pathways.
+            Our collaborative environment fosters long-term relationships and shared success. We celebrate diverse perspectives and support each team member’s professional development through mentorship, learning opportunities, and clear career pathways.
           </GridListItem>
           <GridListItem title="Flexibility" invert>
             We embrace modern work practices that respect work-life balance. Our focus is on outcomes and impact, giving our team the autonomy to work in ways that best support their productivity and personal commitments.
