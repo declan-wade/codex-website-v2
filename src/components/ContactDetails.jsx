@@ -9,11 +9,10 @@ const ContactDetails = () => {
   return (
     <FadeIn>
       <h2 className="font-display text-base font-semibold text-neutral-950">
-        Our offices
+        Where we work
       </h2>
       <p className="mt-6 text-base text-neutral-600">
-        Prefer doing things in person? We don’t but we have to list our
-        addresses here for legal reasons.
+        Prefer doing things in person? Let&rsquo;s chat over a coffee.
       </p>
       <Offices className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2" />
       <Border className="mt-16 pt-16">
@@ -22,8 +21,8 @@ const ContactDetails = () => {
         </h2>
         <dl className="mt-6 grid grid-cols-1 gap-8 text-sm sm:grid-cols-2">
           {[
-            ["Careers", "reactjsbd.com"],
-            ["Press", "noorjsdivs@gmail.com"],
+            ["Me", "declan@codexgroup.com.au"],
+            ["Contact", "info@codexgroup.com.au"],
           ].map(([label, email]) => (
             <div key={email}>
               <dt className="font-semibold text-neutral-950">{label}</dt>

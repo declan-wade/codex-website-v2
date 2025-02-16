@@ -15,8 +15,7 @@ const Services = () => {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+        We are the creators of two advanced digital platforms, EasyAssess and RosterMaster. But we are passionate about creating tailored, bespoke solutions for your business needs.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -32,24 +31,20 @@ const Services = () => {
           </div>
           {/* List item */}
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+            <ListItem title="EasyAssess">
+            Designed for Local Government teams, EasyAssess is our flagship platform for digital development assessment processes.
+              everywhere. <a className="text-gray-400" href="https://easy-assess.com.au">Learn More</a>
+            </ListItem>
+            <ListItem title="RosterMaster">
+            Simple yet powerful, RosterMaster is a state-of-the-art rostering solution for teams of all sizes. 
+            <a className="text-gray-400" href="https://roster-master.vercel.app"> Learn More</a>
             </ListItem>
             <ListItem title="Application development">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+              We have strong experiance using the latest web technologies and
+              app frameworks, like React and Next JS.
             </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
-            </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            <ListItem title="Advisory and consulting">
+              Given our unique experiences in the Government sector, we can help plan and advise on your digital transformation journey.
             </ListItem>
           </List>
         </div>
