@@ -13,7 +13,7 @@ const ApplyForm = (params) => {
     async function handleSubmit(e){
         e.preventDefault(); // Prevent default form submission
         console.log({name: name, email: email, phone: phone, id:params.params.id })
-        const response = await fetch('https://codex-group-support.vercel.app/api/apply', {
+        const response = await fetch('https://bizhub.codexgroup.com.au/api/apply', {
             method: 'POST',
             body: {name: name, email: email, phone: phone, id:params.params.id },
         });

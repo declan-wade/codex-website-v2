@@ -13,7 +13,7 @@ const ContactForm = () => {
 
   async function submit(){
     try {
-        const response = await fetch('https://codex-group-support.vercel.app/api/enquiry', {
+        const response = await fetch('https://bizhub.codexgroup.com.au/api/enquiry', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

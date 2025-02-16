@@ -8,7 +8,7 @@ const WorkPage = () => {
     const [positions, setPositions] = React.useState([])
 
     async function getPositions(){
-        const response = await fetch('https://codex-group-support.vercel.app/api/positions')
+        const response = await fetch('https://bizhub.codexgroup.com.au/api/positions')
         const payload = await response.json()
         console.log(payload)
         setPositions(payload)
